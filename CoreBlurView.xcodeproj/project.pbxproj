@@ -17,6 +17,7 @@
 		89B67C9B1B140711002D98B1 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B67C9A1B140711002D98B1 /* FXBlurView.m */; };
 		89B67C9D1B140B53002D98B1 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B67C9C1B140B53002D98B1 /* 1@2x.png */; };
 		89B67CA01B14145A002D98B1 /* CoreBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B67C9F1B14145A002D98B1 /* CoreBlurView.m */; };
+		89B67CA21B141E6D002D98B1 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 89B67CA11B141E6D002D98B1 /* 1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		89B67C9C1B140B53002D98B1 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
 		89B67C9E1B14145A002D98B1 /* CoreBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBlurView.h; sourceTree = "<group>"; };
 		89B67C9F1B14145A002D98B1 /* CoreBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBlurView.m; sourceTree = "<group>"; };
+		89B67CA11B141E6D002D98B1 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		89B67C701B1406E9002D98B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89B67CA11B141E6D002D98B1 /* 1.gif */,
 				89B67C9C1B140B53002D98B1 /* 1@2x.png */,
 				89B67C711B1406E9002D98B1 /* Info.plist */,
 				89B67C721B1406E9002D98B1 /* main.m */,
@@ -239,6 +242,7 @@
 				89B67C7C1B1406E9002D98B1 /* Main.storyboard in Resources */,
 				89B67C811B1406E9002D98B1 /* LaunchScreen.xib in Resources */,
 				89B67C9D1B140B53002D98B1 /* 1@2x.png in Resources */,
+				89B67CA21B141E6D002D98B1 /* 1.gif in Resources */,
 				89B67C7E1B1406E9002D98B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +464,7 @@
 				89B67C921B1406E9002D98B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89B67C931B1406E9002D98B1 /* Build configuration list for PBXNativeTarget "CoreBlurViewTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				89B67C951B1406E9002D98B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

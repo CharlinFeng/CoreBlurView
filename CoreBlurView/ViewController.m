@@ -54,7 +54,7 @@
     
     _imageV.layer.borderWidth = .5f;
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         NSLog(@"开始");
         _imageV.image = [[UIImage imageNamed:@"1"] blurredImageWithRadius:20 iterations:10 tintColor:[UIColor clearColor]];
