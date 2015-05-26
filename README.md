@@ -10,6 +10,9 @@
 
 <br /><br />
 
+####.效果图片<br />
+![image](./CoreBlurView/1.gif)<br /><br />
+
 
 -----
     CoreBlurView 第二牛B的模糊视图（含图片模糊）
