@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--成都Charlin（冯成林）-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -40,7 +40,7 @@
                             <constraint firstItem="4gn-PF-ZGe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="sIZ-hl-316"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Nvc-Qb-9Xd"/>
+                    <navigationItem key="navigationItem" title="成都Charlin（冯成林）" id="Nvc-Qb-9Xd"/>
                     <connections>
                         <outlet property="imageV" destination="4gn-PF-ZGe" id="Z2v-57-Qka"/>
                     </connections>
