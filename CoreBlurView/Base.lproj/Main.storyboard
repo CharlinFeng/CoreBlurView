@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6a5-0g-EN3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="o9y-QA-TQe">
+                                <rect key="frame" x="150" y="50" width="300" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="pq0-a2-wti"/>
+                                    <constraint firstAttribute="width" constant="300" id="xZf-Lz-sKx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4gn-PF-ZGe">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="E2F-go-hyt"/>
+                                    <constraint firstAttribute="width" constant="200" id="X6x-tn-vHU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4gn-PF-ZGe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="5zj-Qz-c56"/>
+                            <constraint firstAttribute="centerX" secondItem="o9y-QA-TQe" secondAttribute="centerX" id="96m-Tf-5br"/>
+                            <constraint firstAttribute="centerY" secondItem="o9y-QA-TQe" secondAttribute="centerY" id="fAX-Nr-4qF"/>
+                            <constraint firstItem="4gn-PF-ZGe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="sIZ-hl-316"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nvc-Qb-9Xd"/>
+                    <connections>
+                        <outlet property="imageV" destination="4gn-PF-ZGe" id="Z2v-57-Qka"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="312"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0AI-CT-xXd">
+            <objects>
+                <navigationController id="6a5-0g-EN3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fDD-Wx-exi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="EmT-pL-yci"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQH-d9-zWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-613" y="303"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.png" width="222" height="371"/>
+    </resources>
+</document>
